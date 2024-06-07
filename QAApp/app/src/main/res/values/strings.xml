@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">QA App</string>
+    <string name="question">Is this True?</string>
+    <string name="yesBtn">Yes</string>
+    <string name="noBtn">No</string>
+</resources>
