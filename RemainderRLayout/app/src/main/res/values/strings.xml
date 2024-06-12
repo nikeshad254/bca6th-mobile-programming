@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Remainder RLayout</string>
+    <string name="done">Done</string>
+    <string name="remainder">Remainder Name</string>
+    <string name="date">Wed, June 27, 2012</string>
+    <string name="time">8:00 am</string>
+
+</resources>
