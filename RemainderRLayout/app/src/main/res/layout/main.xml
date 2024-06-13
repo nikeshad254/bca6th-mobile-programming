@@ -12,25 +12,22 @@
         android:hint="@string/remainder"
         />
 
-    <EditText
+    <Spinner
         android:id="@+id/dates"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_alignParentLeft="true"
         android:layout_toLeftOf="@+id/times"
-        android:hint="@string/date"
 
         />
 
-    <EditText
+    <Spinner
         android:id="@+id/times"
-        android:layout_width="96dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
         android:layout_alignParentRight="true"
-        android:hint="@string/time"
-
         />
 
     <Button

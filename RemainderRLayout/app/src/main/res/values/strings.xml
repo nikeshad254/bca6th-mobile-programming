@@ -2,7 +2,21 @@
     <string name="app_name">Remainder RLayout</string>
     <string name="done">Done</string>
     <string name="remainder">Remainder Name</string>
-    <string name="date">Wed, June 27, 2012</string>
-    <string name="time">8:00 am</string>
+
+    <string-array name="dates_array">
+        <item>Wed, June 27, 2012</item>
+        <item>Thus, June 28, 2012</item>
+        <item>Fri, June 29, 2012</item>
+        <item>Sat, June 30, 2012</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>8:00 am</item>
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>11:00 am</item>
+        <item>12:00 am</item>
+    </string-array>
+
 
 </resources>
