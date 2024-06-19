@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Table, Absolute, Constraints Layout</string>
+    <string name="absFirst">First</string>
+    <string name="absSecond">Second</string>
+    <string name="radio1">Radio One</string>
+    <string name="radio2">Radio Two</string>
+    <string name="check1">Check Box One</string>
+    <string name="check2">Check Box Two</string>
+</resources>
