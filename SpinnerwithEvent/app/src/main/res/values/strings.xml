@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spinner with Event</string>
+
+    <string-array name="planet_array">
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+    </string-array>
+</resources>
