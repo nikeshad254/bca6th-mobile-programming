@@ -7,6 +7,8 @@ import android.widget.Spinner;
 
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
+
 public class MainActivity extends Activity {
     Spinner dateSpinner;
     Spinner timeSpinner;
@@ -26,13 +28,13 @@ public class MainActivity extends Activity {
         dateSpinner.setAdapter(dateAdapter);
 
 
-        // add item into date
+        // add item into time
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("8:00 am");
+        arrayList.add("10:00 am");
+        arrayList.add("12:00 am");
         timeSpinner = findViewById(R.id.times);
-        ArrayAdapter<CharSequence> timeAdapter = ArrayAdapter.createFromResource(
-                this,
-                R.array.time_array,
-                android.R.layout.simple_spinner_item
-        );
+        ArrayAdapter<String> timeAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, arrayList);
         timeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         timeSpinner.setAdapter(timeAdapter);
 
