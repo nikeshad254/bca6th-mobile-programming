@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/outline_cloud_24"
+        />
+
+    <ImageView
+        android:id="@+id/pencil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pencil_icon"
+        android:layout_toRightOf="@+id/cloud"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:id="@+id/enabledBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/enableBtnTxt"
+        android:enabled="true"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_color"
+        android:layout_below="@+id/cloud"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disableBtnTxt"
+        android:layout_toRightOf="@+id/enabledBtn"
+        android:layout_below="@+id/pencil"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg_color"
+        android:enabled="false"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Drawables Example</string>
+    <string name="enableBtnTxt">Enabled</string>
+    <string name="disableBtnTxt">Disabled</string>
+</resources>
