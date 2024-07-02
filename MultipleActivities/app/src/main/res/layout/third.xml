@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question3"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/answer"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answer3"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prevBtn"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Multiple Activities</string>
+    <string name="question1">What is capital of Nepal?</string>
+    <string name="answer1">Answer: Kathmandhu</string>
+    <string name="question2">What is color of orange?</string>
+    <string name="answer2">Answer: Orange</string>
+    <string name="question3">What is color of Sky?</string>
+    <string name="answer3">Answer: Blue</string>
+    <string name="prevBtn">⏮ Previous</string>
+    <string name="nextBtn">Next ⏭</string>
+</resources>
