@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DataAcrossActivity</string>
+    <string name="enterNameInp">Enter Name ...</string>
+    <string name="clickBtn">Submit</string>
+</resources>
