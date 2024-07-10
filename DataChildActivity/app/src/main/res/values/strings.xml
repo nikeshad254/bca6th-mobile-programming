@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Data Child Activity</string>
+    <string name="label">Your Name: </string>
+    <string name="initialName">Unnamed</string>
+    <string name="hint">Ex: Nikesh</string>
+    <string name="changeBtn">Change</string>
+    <string name="submitBtn">Submit</string>
+</resources>
