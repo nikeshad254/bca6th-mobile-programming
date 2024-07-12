@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/solutionLbl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/resultLbl"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/resultLbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons_layout"
+        android:layout_margin="16dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="64sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttons_layout"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg"
+        android:paddingVertical="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnC"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/clear"
+                android:text="C"
+                android:textSize="32sp"
+                app:cornerRadius="32dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOpenBrace"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/braces"
+                android:text="("
+                android:textSize="32sp"
+                app:cornerRadius="32dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCloseBrace"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/braces"
+                android:text=")"
+                android:textSize="32sp"
+                app:cornerRadius="32dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDiv"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/operators"
+                android:text="/"
+                android:textSize="32sp"
+                app:cornerRadius="32dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="7"
+                android:id="@+id/btn7"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="8"
+                android:id="@+id/btn8"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="9"
+                android:id="@+id/btn9"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="*"
+                android:id="@+id/btnMult"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/operators"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="4"
+                android:id="@+id/btn4"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="5"
+                android:id="@+id/btn5"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="6"
+                android:id="@+id/btn6"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="-"
+                android:id="@+id/btnSub"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/operators"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="1"
+                android:id="@+id/btn1"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="2"
+                android:id="@+id/btn2"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="3"
+                android:id="@+id/btn3"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="+"
+                android:id="@+id/btnAdd"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/operators"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cornerRadius="36dp"
+                android:textSize="32sp"
+                android:text="0"
+                android:id="@+id/btn0"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="."
+                android:id="@+id/btnDot"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/numbers"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="B"
+                android:id="@+id/btnBack"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/back"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                app:cornerRadius="32dp"
+                android:textSize="32sp"
+                android:text="="
+                android:id="@+id/btnEqual"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/equal"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
