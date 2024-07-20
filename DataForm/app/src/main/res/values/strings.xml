@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Data Form</string>
+    <string name="name">Enter Name</string>
+    <string name="address">Enter Address</string>
+    <string name="maleR1">Male</string>
+    <string name="femaleR2">Female</string>
+    <string-array name="program_array">
+        <item>BCA</item>
+        <item>BBM</item>
+        <item>BIM</item>
+        <item>BIT</item>
+    </string-array>
+    <string name="hobby1">Swimming</string>
+    <string name="hobby2">Running</string>
+    <string name="hobby3">Gardening</string>
+    <string name="hobby4">Reading</string>
+    <string name="submitBtn">Submit</string>
+</resources>
