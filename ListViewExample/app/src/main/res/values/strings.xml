@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">List View Example</string>
+    <string-array name="prog_arr">
+        <item>Java</item>
+        <item>C++</item>
+        <item>C</item>
+        <item>Ruby</item>
+        <item>JS</item>
+    </string-array>
+</resources>
