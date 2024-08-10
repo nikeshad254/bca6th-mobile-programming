@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grid View Example</string>
+
+    <string-array name="strCompanyArr">
+        <item>Facebook</item>
+        <item>Amazon</item>
+        <item>Netflix </item>
+        <item>Google</item>
+    </string-array>
+</resources>
